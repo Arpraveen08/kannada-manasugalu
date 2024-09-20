@@ -1,0 +1,160 @@
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style >
+        
+        .top-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #f0f0f0;
+        }
+        
+        .left-content {
+            flex: 1; /* Take up remaining space */
+        }
+        
+        .right-content {
+            display: flex;
+        }
+        
+        .social-icon {
+            margin-right: 10px;
+        }
+        .social-icon img {
+            width: 30px; /* Adjust size as needed */
+            height: 30px;
+        }
+        
+        
+        .logo-contact-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .logo {
+            max-width: 150px; /* Adjust size as needed */
+        }
+        
+        .contact-details {
+            flex: 1;
+            padding-left: 20px;
+        }
+        
+        .contact-details p {
+            margin: 5px 0;
+        }
+        
+        
+        .navigation-links {
+            background-color: #333;
+        }
+        
+        .navigation-links ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            padding: 10px 0;
+            margin: 0;
+        }
+        
+        .navigation-links li {
+            margin: 0 10px;
+        }
+        
+        .navigation-links a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .navigation-links a:hover {
+            background-color: #555;
+        }
+        
+            </style>
+
+    <header class="top-section">
+        <div class="left-content">
+            <p>Email: example@example.com</p>
+        </div>
+        <div class="right-content">
+            <a href="#" class="social-icon"><img src="social-icons/facebook.svg" /></a>
+            <a href="#" class="social-icon"><img src="social-icons/twitter.svg" alt="Twitter"/></a>
+            <a href="#" class="social-icon"><img src="social-icons/instagram.svg" alt="Instagram"/></a>
+            <a href="#" class="social-icon"><img src="social-icons/linkedin.svg" alt="LinkedIn"/></a>
+        </div>
+    </header>
+    
+    <section class="logo-contact-section">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="contact-details">
+            <p>123 Street Name, City, Country</p>
+            <p>Phone: +1234567890</p>
+        </div>
+    </section>
+
+
+    <nav class="navigation-links">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+
+</body>
+</html>
+
+ -->
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Icons with Borders</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.3/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+  <ul class="flex items-center space-x-4">
+    <li>
+      <a href="https://facebook.com" target="_blank" class="flex items-center pr-4">
+        <img src="facebook-icon.png" alt="Facebook" class="w-6 h-6">
+        <div class="border-r border-gray-300 h-6 ml-4"></div> <!-- Right border -->
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com" target="_blank" class="flex items-center pr-4">
+        <img src="twitter-icon.png" alt="Twitter" class="w-6 h-6">
+        <div class="border-r border-gray-300 h-6 ml-4"></div> <!-- Right border -->
+      </a>
+    </li>
+    <li>
+      <a href="https://instagram.com" target="_blank" class="flex items-center">
+        <img src="instagram-icon.png" alt="Instagram" class="w-6 h-6">
+        <!-- No border on the last item -->
+      </a>
+    </li>
+  </ul>
+</body>
+</html>

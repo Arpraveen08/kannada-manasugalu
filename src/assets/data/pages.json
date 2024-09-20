@@ -1,0 +1,13 @@
+
+{
+    "pages":[
+        {"id":1 , "name":"Home", "link":"/"},
+        {"id":2 , "name":"About", "link":"/about"},
+        {"id":3 , "name":"Events", "link":"/events"},
+        {"id":4 , "name":"volunteers", "link":"/volunteer"},
+        {"id":5 , "name":"causes" , "link": "/causes"},
+        {"id":6 , "name":"Gallery", "link":"/gallery"},
+        {"id":7 , "name":"Donate", "link":"/donate"},
+        {"id":8 , "name":"Contact" , "link":"/contact"}
+    ]
+}

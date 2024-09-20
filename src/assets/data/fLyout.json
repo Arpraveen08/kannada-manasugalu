@@ -1,0 +1,42 @@
+{
+    "causes": {
+      "header": "Our Causes",
+      "items": [
+        {
+          "heading": "Environment",
+          "image": "/images/environment.jpg",
+          "description": "Protecting the environment through various initiatives."
+        },
+        {
+          "heading": "Education",
+          "image": "/images/education.jpg",
+          "description": "Providing educational resources to underprivileged children."
+        },
+        {
+          "heading": "Health",
+          "image": "/images/health.jpg",
+          "description": "Improving healthcare access and services in remote areas."
+        }
+      ]
+    },
+    "volunteers": {
+      "header": "Our Volunteers",
+      "items": [
+        {
+          "heading": "John Doe",
+          "image": "/images/john_doe.jpg",
+          "description": "A dedicated volunteer working in the health sector."
+        },
+        {
+          "heading": "Jane Smith",
+          "image": "/images/jane_smith.jpg",
+          "description": "An enthusiastic volunteer involved in education outreach."
+        },
+        {
+          "heading": "Emily Johnson",
+          "image": "/images/emily_johnson.jpg",
+          "description": "A passionate volunteer focusing on environmental conservation."
+        }
+      ]
+    }
+  }
