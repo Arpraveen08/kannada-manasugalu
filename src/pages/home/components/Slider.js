@@ -1,14 +1,15 @@
 
 import{useState, useEffect} from 'react'
-import bg1 from '../assets/images/KMBackground.png'
-import bg2 from '../assets/images/Event/Activities/TreePlantation.png'
+import bg from '../../../assets/images/KMBackground1.jpg'
+import bg1 from '../../../assets/images/KMBackground.png'
+import bg2 from '../../../assets/images/Event/Activities/TreePlantation.png'
 // import bg3 from '../assets/images/Event/Activities/HealthAwareness.png'
-import bg4 from '../assets/images/Event/Activities/PromotionalProgram.png'
+import bg4 from '../../../assets/images/Event/Activities/PromotionalProgram.png'
 
 
 
 const images = [
-bg1 , bg2,  bg4 ]
+bg, bg1 , bg2,  bg4 ]
 
 
 const Slider = ()=>{
@@ -25,7 +26,7 @@ useEffect( ()=>{
 },[])
 
 return(
-    <div className='hero-container'>
+    <div className='hero-container mb-10'>
           {/* webpage background image */}
           <div className='hero-image relative flex transition-transform duration-500 ease-linear ' >
             {/* 

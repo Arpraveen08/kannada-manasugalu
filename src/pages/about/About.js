@@ -1,6 +1,6 @@
 
 import PageNames from "../../components/PageNames"
-import Mission from "../../components/about/Mission"
+import Mission from "./components/Mission"
 import Volunteers from "../volunteers/Volunteers"
 
 function About(){
@@ -20,8 +20,9 @@ function About(){
 
                <p className=" text-left  pl-4 pr-3 font-medium lg:w-7/12 break-words lg:break-words text-base text-darkgrey-200 contrast-125 
                mb-4 "> 
-               In 2017, A group of passionate Kannada speakers from various parts of Karnataka came 
-                together in Bengaluru with a central focus on Kannada and Karnataka. 
+               {/* In 2017, A group of passionate Kannada speakers from various parts of Karnataka came 
+                together in Bengaluru with a central focus on Kannada and Karnataka.  */}
+                "೨೦೧೭"ರಲ್ಲಿ, ಕರ್ನಾಟಕದ ವಿವಿಧ ಭಾಗಗಳಿಂದ ಬಂದ ಕನ್ನಡ ಭಾಷೆಯ ಉತ್ಸಾಹಿಗಳ ಗುಂಪೊಂದು ಬೆಂಗಳೂರುದಲ್ಲಿ ಕನ್ನಡ ಮತ್ತು ಕರ್ನಾಟಕದ ಮೇಲೆ ಕೇಂದ್ರಿತವಾಗಿರುವ ಉದ್ದೇಶದಿಂದ ಸೇರಿತು.
                 </p>
                 <p className="text-left  pl-4 pr-3 font-medium lg:w-7/12 break-words lg:break-words text-base text-darkgrey-200 contrast-125 mb-8 "> 
                 They aimed to promote Kannada through various activities, These enthusiastic individuals, united by their love 

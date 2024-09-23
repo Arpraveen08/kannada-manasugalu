@@ -3,20 +3,12 @@ import { FaHands, FaSchool } from "react-icons/fa";
 
 const Mission = () => {
   return (
-    //         missions
-    // SARKARI SHALE ULISI ABHIYANA
-    // PLANTATION
-    // KANNADA KADDAYA JAGRUTHI ABHIYANA
-    // MENSTRUAL AWARENESS
-    // CLEANING
-    // VOLUNTEERING
-    // COVID WORKS
 
-    <div className="container box-border w-full ">
+    <div className="container box-border w-full  ">
       <div className="Mission">
         <div
           className="mission-header text-center font-serif  text-3xl leading-9 
-                  font-bold mb-20"
+                  font-bold mb-20 "
         >
           <h2> Our Mission</h2>
         </div>
@@ -32,10 +24,10 @@ const Mission = () => {
 
 
         {/* mission - items */}
-        <div className="mission-items w-full    flex flex-col lg:flex-row gap-14 flex-wrap flex-shrink-0  ">
+        <div className="mission-items w-full flex flex-col lg:flex-row gap-10 sm:gap-10 md:gap-10 lg:gap-14  flex-wrap    ">
           
           {/* mission 1 */}
-          <div className="flex flex-col  items-center justify-center lg:flex-row gap-8 mb-16 group  ">
+          <div className="flex flex-col  items-center justify-center lg:flex-row gap-8 mb-4 lg:mb-16 sm:mb-4 md:mb-4 group  ">
             {/* Icon */}
             <div className="icon-box text-sm leading-5  mb-4 lg:-mt-20  ">
               <div
@@ -77,7 +69,7 @@ const Mission = () => {
           </div>
 
           {/* mission 2 */}
-          <div className="flex flex-col  items-center justify-center lg:flex-row gap-8 mb-20  group  ">
+          <div className="flex flex-col  items-center justify-center lg:flex-row gap-8 mb-4 lg:mb-16 sm:mb-4 md:mb-4  group  ">
             {/* Icon */}
             <div className="icon-box text-sm leading-5  mb-4 lg:-mt-20 lg:  ">
               <div
@@ -118,7 +110,7 @@ const Mission = () => {
           </div>
 
           {/* mission 3 */}
-          <div className="flex flex-col  items-center justify-center lg:flex-row gap-8 mb-20 group ">
+          <div className="flex flex-col  items-center justify-center lg:flex-row gap-8 mb-4 lg:mb-16 sm:mb-4 md:mb-4 group ">
             {/* Icon */}
             <div className="icon-box text-sm leading-5  mb-4 lg:-mt-20 lg:  ">
               <div
@@ -159,7 +151,7 @@ const Mission = () => {
           </div>
 
           {/*  mission 4 */}
-          <div className="flex flex-col  items-center justify-center lg:flex-row gap-8 mb-20 group ">
+          <div className="flex flex-col  items-center justify-center lg:flex-row gap-8 mb-4 lg:mb-16 sm:mb-4 md:mb-4 group ">
             {/* Icon */}
             <div className="icon-box text-sm leading-5  mb-4 lg:-mt-20 lg:  ">
               <div
@@ -201,7 +193,7 @@ const Mission = () => {
           </div>
 
           {/* mission 5 */}
-          <div className="flex flex-col  items-center justify-center lg:flex-row gap-8 mb-20 group ">
+          <div className="flex flex-col  items-center justify-center lg:flex-row gap-8 mb-4 lg:mb-16 sm:mb-4 md:mb-4 group ">
             {/* Icon */}
             <div className="icon-box text-sm leading-5  mb-4 lg:-mt-20 lg:  ">
               <div
@@ -243,7 +235,7 @@ const Mission = () => {
           </div>
 
           {/* mission 6 */}
-          <div className="flex flex-col  items-center justify-center lg:flex-row gap-8 mb-20 group ">
+          <div className="flex flex-col  items-center justify-center lg:flex-row gap-8 mb-4 lg:mb-16 sm:mb-4 md:mb-4 group ">
             {/* Icon */}
             <div className="icon-box text-sm leading-5  mb-4 lg:-mt-20 lg:  ">
               <div

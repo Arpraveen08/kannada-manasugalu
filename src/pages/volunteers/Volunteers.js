@@ -88,7 +88,7 @@ const Volunteers = () =>{
                {
                 !checkpage 
                 ? 
-             <div className="slider-container  relative w-full flex flex-col  items-center lg:flex-row gap-4 mt-12 h-auto animate-slide ">
+             <div className="slider-container  relative w-full flex flex-col  items-center lg:flex-row gap-4 mt-12 h-auto animate-slide  ">
                 {
                   volunteers.volunteer.map((item,id)=>(
                 <div className="slider-card flex w-[300%] lg:w-2/5 lg:max-w-[265px] h-auto flex-col flex-shrink-0 flex-grow gap-8 text-center mb-4  " key={id}>
