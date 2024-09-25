@@ -33,7 +33,7 @@ return(
         // min-w-[360px] bg-contain lg:w-full h-screen lg:bg-cover bg-center bg-no-repeat 
         -mt-48 lg:mt-0 
          */}
-        <img className=' min-w-[360px] relative lg:w-full h-auto object-contain lg:object-cover   '
+        <img className=' min-w-[360px] relative lg:w-full h-96 lg:h-[720px] md:h-[500px] sm:h-96   '
                 src ={images[currentIndex]}
                 alt='Hero-images'
                 />

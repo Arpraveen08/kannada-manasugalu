@@ -12,7 +12,7 @@ function Home() {
       {/* color for nav items  #435061 */}
 
         {/* <div className="box-border  m-0 p-0"></div> */}
-        <div className="wrapper  lg:w-10/12   mx-auto pt-8  ">
+        <div className="wrapper  lg:w-10/12   mx-auto   ">
 
         {/* image slider component*/}
         <div className="hero-section">

@@ -70,7 +70,7 @@ function Header(){
 
         </div>
          <div>
-            <CtaBtn active to={"/volunteer"} >
+            <CtaBtn active to={"/donate"} >
             Donate Now
                 </CtaBtn>
         </div>

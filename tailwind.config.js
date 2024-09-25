@@ -55,7 +55,11 @@ module.exports = {
       'darkgrey-100':'150c06',
 
       // about page text color
-        'darkgrey-200':'#504f4f'
+        'darkgrey-200':'#504f4f',
+
+      // gallery border 
+      'galleryBorder':'#dadada'
+
   
        
   
@@ -102,12 +106,20 @@ module.exports = {
       // },
       keyframes:{
         slide:{
-         '0%':{transform:'translateX(0)' },
-         '100%':{transform:'translateX(100%)'}
+         '0%':{  transform:'translateX(0)' },
+         '100%':{  transform:'translateX(100%)'}
         },
+
+        fadeout:{
+          '0%':{ opacity : '1'},
+          '100%' : { opacity : '0'}
+        }
       },
+
+
       animation:{
-        slide: 'slide 8s  linear infinite'
+        slide: 'slide 8s  linear infinite',
+        fadeout: ' 1s both '
       },
 
     },

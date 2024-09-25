@@ -49,7 +49,7 @@ const Navbar=()=>{
                     text-neutral-white  text-start  mt-12 z-50 ">
                {         
                navpages.pages.slice(0 , navpages.pages.length).map((item,id) => (  
-            <div  className={ ` space-y-3 mt-1 py-2.5  `} key={id} >
+            <div className={ ` space-y-3 mt-1 py-2.5  `} key={id} >
                 {/* fix issue ->  when anywhere clicked in the item it should go to the 
                   corresponding page without toggling the menu */}
                 <nav > 
@@ -88,10 +88,10 @@ const Navbar=()=>{
          {/*  Navbar  */}
 
         <div className=" nav-menubar   hidden md:flex items-center justify-evenly w-full h-20 bg-lightgrey-700 
-        px-4 leading-5  border-b-4 border-main-orange  ">
+        px-3 leading-5  border-b-4 border-main-orange  ">
         {
-            navpages.pages.map((item,index)=> (
-        <div className=" flex-shrink-1   ">
+            navpages.pages.map((item,id)=> (
+        <div className=" flex-shrink-1 " key={id}>
         <nav className=" relative group ">
             <ul className="nav-menu-list  ">
                 <li className="nav-menu-list-items text-neutral-white hover:text-main-orange 

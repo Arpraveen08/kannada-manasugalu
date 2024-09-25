@@ -6,6 +6,7 @@ import volunteers from "../../data/volunteers.json"
 // import { useState,useEffect } from "react";
 
 
+
 const Volunteers = () =>{
         
 
@@ -17,45 +18,7 @@ const Volunteers = () =>{
 
         const checkpage = (page === '/volunteer')
 
-        // console.log(page)
-
-        console.log(volunteers)
-
-        // let imageData = [ ]
-        //  imageData = fetch(volunteers.json)
-        // .then(response => response.json())
-        // .then(data => {
-        //   const length = data.length;
-        //   console.log(`Length of the JSON array:  ${length}`);
-        // })
-        // .catch(error => {
-        //   console.error(`Error fetching JSON data:  ${error}`);
-        // });
-
-
-        
-        //   const [currentSlide, setCurrentSlide] = useState(0);
-        
-        
-        //   useEffect(() => {
-        //     const intervalId = setInterval(() => {
-        //       setCurrentSlide((prevSlide) => {
-        //         const nextSlide = (prevSlide + 1) %imageData.length;
-        //         // If the next slide is 0 (the first image), clone the last image and add it to the end
-        //         if (nextSlide === 0) {
-        //           const clonedLastImage = { ...imageData[ imageData.length - 1] };
-        //            imageData.push(clonedLastImage);
-        //         }
-        //         return nextSlide;
-        //       });
-        //     }, 5000);
-        
-        //     return () => clearInterval(intervalId);
-        //   }, []);
-
-
-
-
+          
 
         return (
             <div className="container box-border w-full lg:w-10/12 mx-auto h-auto ">
@@ -87,7 +50,8 @@ const Volunteers = () =>{
                {/* volunteers details */}
                {
                 !checkpage 
-                ? 
+                ?
+                
              <div className="slider-container  relative w-full flex flex-col  items-center lg:flex-row gap-4 mt-12 h-auto animate-slide  ">
                 {
                   volunteers.volunteer.map((item,id)=>(
@@ -115,7 +79,7 @@ const Volunteers = () =>{
                     </div>
                        <p className="volunteer-description text-start text-lightgrey-200 -mt-3 break-words lg:break-words "> {item.desc} </p>
                       <div className=" flex items-start content-start -ml-7  text-lightgrey-500  !important ">
-                       <CtaBtn className="text-lightgrey-500 !important " to='/volunteer' > View Profile</CtaBtn>
+                       {/* <CtaBtn className="text-lightgrey-500 !important " to='/volunteer' > View Profile</CtaBtn> */}
                       </div>
                        
                        </div>

@@ -220,7 +220,7 @@ const Mission = () => {
                 style={{ textTransform: "capitalize" }}
               >
                 {" "}
-                volunteering causes{" "}
+                Awareness Programs{" "}
               </p>
               <p className=" text-sm font-normal font-sans text-lightgrey-200  ">
                 {" "}

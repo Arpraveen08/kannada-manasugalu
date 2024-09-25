@@ -28,7 +28,7 @@ const UpcomingEvents = ()=>{
         <p className='event-description text-lightgrey-200' > Kempapura GOVT primary & higher school ,this school is very special for the 
         villagers nearby because this is the only school for 4 villages  which eduactes arround 50-80 students of different clases from 1st to 10th std. </p>
         
-        <CustomButton  active to='/' > 
+        <CustomButton  active to='/donate' > 
             Donate Now
         </CustomButton>
         
@@ -60,7 +60,7 @@ const UpcomingEvents = ()=>{
 <p className='event-description text-lightgrey-200' > Kannada Kadaya campaign is oraganised by 
 by a kannada -mansuaglu group in Co-operation with the volunteers to spread awareness regarding usage of Kannada & its importance . </p>
 
-<CustomButton  active to='/' > 
+<CustomButton  active to='/donate' > 
     Donate Now
 </CustomButton>
 
