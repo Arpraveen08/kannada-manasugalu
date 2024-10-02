@@ -1,1 +1,1 @@
-# kannada-manasugalu
+# kannada
